@@ -3,8 +3,6 @@ layout: default
 title: Keerthana Srinivasan | Legal Portfolio
 ---
 
-<link rel="stylesheet" href="assets/style.css">
-
 <div class="hero">
   <h1>Keerthana Srinivasan</h1>
   <p>Final Year Law Student | CS Finalist</p>
@@ -15,7 +13,7 @@ title: Keerthana Srinivasan | Legal Portfolio
 <section class="tile">
 <h2>Profile</h2>
 <p>
-Final Year Law Student pursuing <strong>B.Com LLB (Hons.)</strong> at SASTRA Deemed University and a CS Finalist regulated by ICSI. Dedicated to legal research with strong interest in Commercial and Taxation Law. Observant, punctual, and adaptable professional ready to take up responsibilities.
+Final Year Law Student pursuing <strong>B.Com LLB (Hons.)</strong> at SASTRA Deemed University and a CS Finalist regulated by ICSI. Dedicated to legal research with strong interest in Commercial and Taxation Law.
 </p>
 </section>
 
@@ -62,16 +60,6 @@ Final Year Law Student pursuing <strong>B.Com LLB (Hons.)</strong> at SASTRA Dee
 </section>
 
 <section class="tile">
-<h2>Moot & Achievements</h2>
-<ul>
-<li>Winners — 14th Nari Gursahani Moot</li>
-<li>Best Memorial — Justitia National Moot</li>
-<li>Winner & Best Speaker — Connaissance Moot</li>
-<li>Co‑Head — Finance Committee, NPM Tax Moot</li>
-</ul>
-</section>
-
-<section class="tile">
 <h2>Contact</h2>
 <p>
 Email: keer1503@gmail.com<br>
@@ -82,4 +70,6 @@ Location: Chennai, India<br>
 </section>
 
 </div>
-**
+
+
+**make it ultra minimal**
