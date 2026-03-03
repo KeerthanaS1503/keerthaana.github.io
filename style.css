@@ -1,30 +1,65 @@
+/* Blue‑Grey Professional Theme */
+
 body {
-  font-family: "Georgia", serif;
-  max-width: 900px;
-  margin: auto;
-  padding: 40px;
-  line-height: 1.7;
-  background: #f9fafb;
+  font-family: "Segoe UI", system-ui, sans-serif;
+  background: #eef2f7;
   color: #1f2937;
+  margin: 0;
+  padding: 0;
 }
 
-h1 {
-  color: #111827;
-  border-bottom: 3px solid #1e3a8a;
-  padding-bottom: 10px;
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #334155, #64748b);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+  animation: slideDown 0.8s ease;
 }
 
-h2 {
-  color: #1e3a8a;
-  margin-top: 40px;
+.hero h1 {
+  margin: 0;
+  font-size: 2.5rem;
 }
 
-h3 {
-  color: #374151;
+.hero p {
+  margin-top: 10px;
+  opacity: 0.9;
 }
 
+/* Tile Grid */
+.tiles {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* Individual Tile */
+.tile {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  animation: slideUp 0.6s ease both;
+}
+
+.tile:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+}
+
+.tile h2 {
+  margin-top: 0;
+  color: #334155;
+}
+
+/* Links */
 a {
-  color: #1e40af;
+  color: #2563eb;
   text-decoration: none;
   font-weight: 500;
 }
@@ -33,14 +68,36 @@ a:hover {
   text-decoration: underline;
 }
 
-hr {
-  margin: 30px 0;
+/* Animations */
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-ul {
-  padding-left: 20px;
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-strong {
-  color: #111827;
+/* Mobile polish */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
 }
+
+If you want next‑level premium (like top law firm sites), say:
+
+**"make it elite premium"
