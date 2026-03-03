@@ -1,67 +1,71 @@
-/* Blue‑Grey Professional Theme */
+/* Minimalistic Blue-Grey Theme */
 
 body {
-  font-family: "Segoe UI", system-ui, sans-serif;
-  background: #eef2f7;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background: #e6edf3; /* BLUE-GREY BACKGROUND */
   color: #1f2937;
   margin: 0;
   padding: 0;
 }
 
+main {
+  max-width: 1100px;
+  margin: auto;
+}
+
 /* Hero */
 .hero {
-  background: linear-gradient(135deg, #334155, #64748b);
+  background: #475569;
   color: white;
   text-align: center;
-  padding: 60px 20px;
-  animation: slideDown 0.8s ease;
+  padding: 70px 20px;
+  animation: slideDown 0.7s ease;
 }
 
 .hero h1 {
   margin: 0;
-  font-size: 2.5rem;
+  font-size: 2.4rem;
+  font-weight: 600;
 }
 
 .hero p {
-  margin-top: 10px;
+  margin-top: 8px;
   opacity: 0.9;
 }
 
-/* Tile Grid */
+/* Tiles grid */
 .tiles {
-  max-width: 1100px;
-  margin: 40px auto;
-  padding: 0 20px;
+  margin: 40px 20px 60px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px;
+  gap: 18px;
 }
 
-/* Individual Tile */
+/* Tile card */
 .tile {
   background: #ffffff;
-  padding: 25px;
-  border-radius: 14px;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-  transition: transform 0.35s ease, box-shadow 0.35s ease;
+  padding: 22px;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
   animation: slideUp 0.6s ease both;
 }
 
 .tile:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 18px 40px rgba(0,0,0,0.12);
+  transform: translateY(-4px);
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.12);
 }
 
 .tile h2 {
   margin-top: 0;
   color: #334155;
+  font-size: 1.25rem;
 }
 
 /* Links */
 a {
   color: #2563eb;
   text-decoration: none;
-  font-weight: 500;
 }
 
 a:hover {
@@ -70,34 +74,15 @@ a:hover {
 
 /* Animations */
 @keyframes slideUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(25px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 @keyframes slideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  from { opacity: 0; transform: translateY(-25px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-/* Mobile polish */
 @media (max-width: 600px) {
-  .hero h1 {
-    font-size: 2rem;
-  }
+  .hero h1 { font-size: 2rem; }
 }
-
-If you want next‑level premium (like top law firm sites), say:
-
-**"make it elite premium"
