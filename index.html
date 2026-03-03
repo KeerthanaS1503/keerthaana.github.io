@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name | Portfolio</title>
+
+    <style>
+        /* ===== Google Font ===== */
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+        /* ===== Reset ===== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #f4f7fa;
+            color: #2f3e46;
+            line-height: 1.6;
+        }
+
+        /* ===== Container ===== */
+        .container {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        /* ===== Header ===== */
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: #2b3a42;
+        }
+
+        header p {
+            color: #6c7a89;
+            margin-top: 10px;
+        }
+
+        /* ===== Card Sections ===== */
+        .card {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 14px;
+            margin-bottom: 25px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.05);
+            transition: transform 0.25s ease, box-shadow 0.25s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+        }
+
+        .card h2 {
+            margin-bottom: 15px;
+            color: #3a506b;
+            font-size: 1.4rem;
+        }
+
+        /* ===== Links ===== */
+        a {
+            color: #4f6d7a;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        a:hover {
+            color: #2b3a42;
+        }
+
+        /* ===== Skills ===== */
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: #e6edf3;
+            color: #3a506b;
+            padding: 6px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+        }
+
+        /* ===== Footer ===== */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #8a97a6;
+            font-size: 0.9rem;
+        }
+
+        /* ===== Mobile ===== */
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .container {
+                padding: 25px 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <header>
+            <h1>Your Name</h1>
+            <p>Aspiring Developer • Student • Tech Enthusiast</p>
+        </header>
+
+        <section class="card">
+            <h2>About Me</h2>
+            <p>
+                Write a short introduction about yourself here. Keep it simple and clean.
+                Mention your interests, goals, and what you are currently learning.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Skills</h2>
+            <div class="skills">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">Python</span>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>Projects</h2>
+            <p>
+                🔹 <a href="#">Project One</a><br>
+                🔹 <a href="#">Project Two</a><br>
+                🔹 <a href="#">Project Three</a>
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>Contact</h2>
+            <p>
+                Email: yourmail@example.com<br>
+                GitHub: <a href="#">github.com/yourusername</a><br>
+                LinkedIn: <a href="#">linkedin.com/in/yourprofile</a>
+            </p>
+        </section>
+
+        <footer>
+            © 2026 Your Name
+        </footer>
+
+    </div>
+</body>
+</html>
