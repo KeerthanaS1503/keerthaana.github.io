@@ -5,127 +5,81 @@ title: Keerthana Srinivasan | Legal Portfolio
 
 <link rel="stylesheet" href="assets/style.css">
 
-# Keerthana Srinivasan
+<div class="hero">
+  <h1>Keerthana Srinivasan</h1>
+  <p>Final Year Law Student | CS Finalist</p>
+</div>
 
-📍 Chennai, India  
-📧 keer1503@gmail.com  
-📞 +91 7572900699  
-🔗 [LinkedIn](https://www.linkedin.com/in/keerthana-srinivasan-229b99256)
+<div class="tiles">
 
----
+<section class="tile">
+<h2>Profile</h2>
+<p>
+Final Year Law Student pursuing <strong>B.Com LLB (Hons.)</strong> at SASTRA Deemed University and a CS Finalist regulated by ICSI. Dedicated to legal research with strong interest in Commercial and Taxation Law. Observant, punctual, and adaptable professional ready to take up responsibilities.
+</p>
+</section>
 
-## 👩‍⚖️ Profile
+<section class="tile">
+<h2>Education</h2>
+<ul>
+<li><strong>B.Com LLB (Hons.)</strong> — CGPA: 8.89</li>
+<li><strong>CS Finalist – ICSI</strong></li>
+<li>12th — 94.6%</li>
+<li>10th — 92.6%</li>
+</ul>
+</section>
 
-Final Year Law Student pursuing **B.Com LLB (Hons.)** at School of Law, SASTRA Deemed University and a **CS Finalist** regulated by ICSI.
+<section class="tile">
+<h2>Skills</h2>
+<ul>
+<li>Legal Research</li>
+<li>Verbal Communication</li>
+<li>Adaptability</li>
+<li>Presentation Ability</li>
+<li>Interpersonal Skills</li>
+</ul>
+</section>
 
-Dedicated to legal research with strong interest in **Commercial and Taxation Law**. Observant, punctual, and highly adaptable professional ready to take up responsibilities.
+<section class="tile">
+<h2>Publications</h2>
+<p><strong>Shareholder Activism</strong><br>
+<a href="https://ijlmh.com/paper/shareholder-activism-does-it-enhance-corporate-accountability-or-cause-disruption/">View Publication</a></p>
 
----
+<p><strong>CSR and Data Privacy</strong><br>
+<a href="https://ijlmh.com/paper/explaining-the-role-of-csr-in-promoting-data-privacy-an-analytical-research/">View Publication</a></p>
+</section>
 
-## 🎓 Education
+<section class="tile">
+<h2>Internships</h2>
+<ul>
+<li>Lakshmikumaran and Sridharan Attorneys (2026)</li>
+<li>Lakshmikumaran and Sridharan Attorneys (2025)</li>
+<li>King and Partridge, Chennai (2024)</li>
+<li>Adv. Meera Gnanasekar (2023)</li>
+<li>Sr. Adv. Hriday Buch (2023)</li>
+<li>Sundaram Finance (2022)</li>
+</ul>
+</section>
 
-**B.Com LLB (Hons.)**  
-SASTRA Deemed University  
-CGPA: **8.89**
+<section class="tile">
+<h2>Moot & Achievements</h2>
+<ul>
+<li>Winners — 14th Nari Gursahani Moot</li>
+<li>Best Memorial — Justitia National Moot</li>
+<li>Winner & Best Speaker — Connaissance Moot</li>
+<li>Co‑Head — Finance Committee, NPM Tax Moot</li>
+</ul>
+</section>
 
-**CS Finalist – ICSI**  
-- CS Executive – 439/800  
-- CS Professional Module 1 – 200/400  
+<section class="tile">
+<h2>Contact</h2>
+<p>
+Email: keer1503@gmail.com<br>
+Phone: +91 7572900699<br>
+Location: Chennai, India<br>
+<a href="https://www.linkedin.com/in/keerthana-srinivasan-229b99256">LinkedIn Profile</a>
+</p>
+</section>
 
-**12th – SRDF Vivekananda Vidyalaya**  
-- 94.6%  
-- Topper in English & IT  
-
-**10th – SRDF Vivekananda Vidyalaya**  
-- 92.6%  
-- Topper in English  
-
----
-
-## 🛠 Skills
-
-- Legal Research  
-- Verbal Communication  
-- Adaptability  
-- Presentation Ability  
-- Interpersonal Skills  
-
----
-
-## 📚 Publications
-
-### Shareholder Activism
-*International Journal of Law Management and Humanities (Dec 2023)*  
-🔗 https://ijlmh.com/paper/shareholder-activism-does-it-enhance-corporate-accountability-or-cause-disruption/
-
-### CSR and Data Privacy
-*International Journal of Law Management and Humanities (Dec 2023)*  
-🔗 https://ijlmh.com/paper/explaining-the-role-of-csr-in-promoting-data-privacy-an-analytical-research/
-
----
-
-## 💼 Internships
-
-### Lakshmikumaran and Sridharan Attorneys — Jan 2026
-- Commercial Disputes Resolution Team  
-- Research under CPC 1908, Arbitration Act, CGST Act  
-- Drafted legal notices  
-- Assisted cases before Madras High Court  
-
-### Lakshmikumaran and Sridharan Attorneys — Jul 2025
-- Direct Tax & Economic Offences  
-- Income Tax Act research  
-- Drafted legal opinions  
-- International taxation sessions  
-
-### Lakshmikumaran and Sridharan Attorneys — Jan 2025
-- Indirect Tax – Customs Litigation  
-- Customs Act research  
-- Observed CESTAT proceedings  
-
-### King and Partridge, Chennai — Jul 2024
-- Assisted before Madras High Court & NCLAT  
-- SARFAESI, IBC, Arbitration research  
-
-### Advocate Meera Gnanasekar — Jul 2023
-- Observed CAT & High Court proceedings  
-- Case briefing  
-
-### Senior Advocate Hriday Buch — Jan 2023
-- Observed Gujarat High Court proceedings  
-
-### Sundaram Finance — Aug 2022
-- Arbitration & Contract Act research  
-- Legal department exposure  
-
----
-
-## 🏆 Moot Experience
-
-- 🥇 Winners — 14th Nari Gursahani National Moot Court  
-- 🏅 Best Memorial — Justitia National Moot  
-- 🎯 Quarter Finalist — Sankhla & Associates Moot  
-- 🥇 Winner & Best Speaker — Connaissance Appellate Moot  
-- 🥈 Runner Up — Connaissance Memo Writing  
-
----
-
-## 🌟 Achievements
-
-- Participant — Nani Palkhivala Elocution Competition  
-- Co-Head — Finance Committee, NPM Tax Moot (2024–2025)  
-
----
-
-## 🌐 Languages
-
-- English  
-- Tamil  
-- Hindi  
-- Elementary Gujarati  
-
----
-
-## 📖 Hobbies
-
-Reading books and writing.
+</div>
+**
