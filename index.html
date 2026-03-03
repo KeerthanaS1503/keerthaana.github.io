@@ -1,168 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Keerthana Srinivasan | Portfolio</title>
 
-    <style>
-        /* ===== Google Font ===== */
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
 
-        /* ===== Reset ===== */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-        body {
-            font-family: 'Inter', sans-serif;
-            background: #f4f7fa;
-            color: #2f3e46;
-            line-height: 1.6;
-        }
+body {
+    font-family: 'Inter', sans-serif;
+    background: #eef2f6;
+    color: #2f3e46;
+    line-height: 1.6;
+}
 
-        /* ===== Container ===== */
-        .container {
-            max-width: 1000px;
-            margin: auto;
-            padding: 40px 20px;
-        }
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px 20px;
+}
 
-        /* ===== Header ===== */
-        header {
-            text-align: center;
-            margin-bottom: 50px;
-        }
+header {
+    text-align: center;
+    margin-bottom: 60px;
+}
 
-        header h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: #2b3a42;
-        }
+header h1 {
+    font-size: 2.7rem;
+    font-weight: 700;
+    color: #1f2d3d;
+}
 
-        header p {
-            color: #6c7a89;
-            margin-top: 10px;
-        }
+header p {
+    margin-top: 10px;
+    color: #5f6f81;
+}
 
-        /* ===== Card Sections ===== */
-        .card {
-            background: #ffffff;
-            padding: 25px;
-            border-radius: 14px;
-            margin-bottom: 25px;
-            box-shadow: 0 8px 24px rgba(0,0,0,0.05);
-            transition: transform 0.25s ease, box-shadow 0.25s ease;
-        }
+.contact-links {
+    margin-top: 15px;
+    font-size: 0.9rem;
+}
 
-        .card:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 12px 28px rgba(0,0,0,0.08);
-        }
+.contact-links a {
+    color: #3a506b;
+    text-decoration: none;
+    margin: 0 10px;
+}
 
-        .card h2 {
-            margin-bottom: 15px;
-            color: #3a506b;
-            font-size: 1.4rem;
-        }
+.section {
+    background: #ffffff;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.05);
+    transition: 0.3s ease;
+}
 
-        /* ===== Links ===== */
-        a {
-            color: #4f6d7a;
-            text-decoration: none;
-            font-weight: 500;
-        }
+.section:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.08);
+}
 
-        a:hover {
-            color: #2b3a42;
-        }
+.section h2 {
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    color: #3a506b;
+    border-bottom: 2px solid #dbe3ec;
+    padding-bottom: 8px;
+}
 
-        /* ===== Skills ===== */
-        .skills {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
+ul {
+    list-style: none;
+}
 
-        .skill-tag {
-            background: #e6edf3;
-            color: #3a506b;
-            padding: 6px 12px;
-            border-radius: 20px;
-            font-size: 0.85rem;
-        }
+ul li {
+    margin-bottom: 8px;
+}
 
-        /* ===== Footer ===== */
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            color: #8a97a6;
-            font-size: 0.9rem;
-        }
+.skills span {
+    display: inline-block;
+    background: #dbe3ec;
+    padding: 6px 14px;
+    border-radius: 20px;
+    margin: 6px 6px 0 0;
+    font-size: 0.85rem;
+    color: #2f3e46;
+}
 
-        /* ===== Mobile ===== */
-        @media (max-width: 600px) {
-            header h1 {
-                font-size: 2rem;
-            }
+.footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.85rem;
+    color: #7b8a9a;
+}
 
-            .container {
-                padding: 25px 15px;
-            }
-        }
-    </style>
+a {
+    color: #3a506b;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+@media(max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+}
+</style>
 </head>
 
 <body>
-    <div class="container">
 
-        <header>
-            <h1>Your Name</h1>
-            <p>Aspiring Developer • Student • Tech Enthusiast</p>
-        </header>
+<div class="container">
 
-        <section class="card">
-            <h2>About Me</h2>
-            <p>
-                Write a short introduction about yourself here. Keep it simple and clean.
-                Mention your interests, goals, and what you are currently learning.
-            </p>
-        </section>
-
-        <section class="card">
-            <h2>Skills</h2>
-            <div class="skills">
-                <span class="skill-tag">HTML</span>
-                <span class="skill-tag">CSS</span>
-                <span class="skill-tag">JavaScript</span>
-                <span class="skill-tag">Python</span>
-            </div>
-        </section>
-
-        <section class="card">
-            <h2>Projects</h2>
-            <p>
-                🔹 <a href="#">Project One</a><br>
-                🔹 <a href="#">Project Two</a><br>
-                🔹 <a href="#">Project Three</a>
-            </p>
-        </section>
-
-        <section class="card">
-            <h2>Contact</h2>
-            <p>
-                Email: yourmail@example.com<br>
-                GitHub: <a href="#">github.com/yourusername</a><br>
-                LinkedIn: <a href="#">linkedin.com/in/yourprofile</a>
-            </p>
-        </section>
-
-        <footer>
-            © 2026 Your Name
-        </footer>
-
+<header>
+    <h1>Keerthana Srinivasan</h1>
+    <p>B.Com LL.B (Hons.) | CS Finalist | Legal Research Enthusiast</p>
+    <div class="contact-links">
+        Chennai, India |
+        <a href="mailto:keer1503@gmail.com">keer1503@gmail.com</a> |
+        <a href="https://www.linkedin.com/in/keerthana-srinivasan-229b99256" target="_blank">LinkedIn</a>
     </div>
+</header>
+
+<div class="section">
+    <h2>Profile</h2>
+    <p>
+        Final Year Law Student at SASTRA Deemed University pursuing B.Com LL.B (Hons.) and a CS Finalist regulated by the Institute of Company Secretaries of India. 
+        Deeply interested in Commercial and Taxation Law with strong dedication to legal research, drafting, and analytical interpretation of statutes.
+    </p>
+</div>
+
+<div class="section">
+    <h2>Education</h2>
+    <ul>
+        <li><strong>B.Com LL.B (Hons.)</strong> – SASTRA Deemed University (CGPA: 8.89)</li>
+        <li><strong>CS Finalist – ICSI</strong></li>
+        <li>Class XII – 94.6% (Topper in English & IT)</li>
+        <li>Class X – 92.6% (Topper in English)</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Internships</h2>
+    <ul>
+        <li><strong>Lakshmikumaran & Sridharan Attorneys (2025–2026)</strong> – Commercial Disputes, Direct Tax, Customs Litigation</li>
+        <li><strong>King & Partridge, Chennai</strong> – High Court & NCLAT matters</li>
+        <li><strong>Adv. Meera Gnanasekar</strong> – Madras High Court</li>
+        <li><strong>Sr. Adv. Hriday Buch</strong> – Gujarat High Court</li>
+        <li><strong>Sundaram Finance</strong> – Legal Department</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Publications</h2>
+    <ul>
+        <li>
+            <a href="https://ijlmh.com/paper/shareholder-activism-does-it-enhance-corporate-accountability-or-cause-disruption/" target="_blank">
+            Shareholder Activism & Corporate Accountability
+            </a>
+        </li>
+        <li>
+            <a href="https://ijlmh.com/paper/explaining-the-role-of-csr-in-promoting-data-privacy-an-analytical-research/" target="_blank">
+            Role of CSR in Promoting Data Privacy
+            </a>
+        </li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Moot Court & Achievements</h2>
+    <ul>
+        <li>Winner – 14th Nari Gursahani National Moot Court Competition</li>
+        <li>Best Memorial – Justitia National Moot Court Competition</li>
+        <li>Best Speaker – Connaissance Appellate Moot</li>
+        <li>Finance Committee Co-head – Nani Palkhivala Tax Moot 2024–25</li>
+    </ul>
+</div>
+
+<div class="section">
+    <h2>Skills</h2>
+    <div class="skills">
+        <span>Legal Research</span>
+        <span>Drafting</span>
+        <span>Tax Law</span>
+        <span>Commercial Law</span>
+        <span>Presentation</span>
+        <span>Interpersonal Skills</span>
+    </div>
+</div>
+
+<div class="section">
+    <h2>Languages</h2>
+    <p>English | Tamil | Hindi | Elementary Gujarati</p>
+</div>
+
+<div class="footer">
+    © 2026 Keerthana Srinivasan
+</div>
+
+</div>
+
 </body>
 </html>
