@@ -70,6 +70,3 @@ Location: Chennai, India<br>
 </section>
 
 </div>
-
-
-**make it ultra minimal**
